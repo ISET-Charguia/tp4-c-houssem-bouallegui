@@ -19,7 +19,7 @@ int main(void)
        printf(" Donner N le nombre d'entier N1/N2 : ");
        scanf("%d %d",&n1,&n2);
     }
-    while ((n1>20) || ( n2>20)) ;
+    while ((n1>10) || ( n2>10)) ;
     for (i=0 ; i<n1 ; i++ )
     {
         printf(" Donner une valeur de T1[%d] : ",i+1) ;
